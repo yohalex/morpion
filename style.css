@@ -142,5 +142,18 @@ justify-content: space-around;
   .resultat{
     width: 250px;
   }
+  .parametre{
+    background-color : #00bcf2;
+    position : absolute;
+    width: 250px;
+    top : 150px;
+    border-radius:  5px;
+  }
+  .parametre .mode , .parametre .choice-outil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
  
 }
