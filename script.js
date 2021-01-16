@@ -172,7 +172,7 @@ function verification(tab , user) {
       resultat.style.color = "#00bcf2"
     } else {
         if(tab[0].innerText === user){
-          resultat.innerText ="Bravo vous avez gagner au bout de "+ compteur + " coups"
+          resultat.innerText ="Bravo vous avez gagné au bout de "+ compteur + " coups"
           resultat.style.color = "green"
         }else{
           resultat.innerText = "Pff vous avez perdu "
